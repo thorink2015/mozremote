@@ -24,9 +24,8 @@ export const slides = [
   { id: 16, title: "Грузия" },
   { id: 17, title: "Что получает партнёр" },
   { id: 18, title: "Пошаговый процесс" },
-  { id: 19, title: "Шаблоны сообщений" },
-  { id: 20, title: "FAQ" },
-  { id: 21, title: "Стать партнёром" },
+  { id: 19, title: "FAQ" },
+  { id: 20, title: "Стать партнёром" },
 ];
 
 const Home = () => {
