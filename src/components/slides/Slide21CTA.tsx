@@ -37,7 +37,7 @@ export const Slide21CTA = () => (
           Напишите нам — мы отправим актуальные проекты, партнёрские условия, примеры заработка и материалы для старта.
         </p>
 
-        <a href="mailto:iulia@propertyinvestlabs.com">
+        <a href="https://t.me/manoliiulia" target="_blank" rel="noopener noreferrer">
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-base px-8 py-4 rounded-[7px] shadow-[0_0_30px_rgba(179,158,138,0.2)]">
             <Send className="w-5 h-5 mr-2" />
             Написать нам

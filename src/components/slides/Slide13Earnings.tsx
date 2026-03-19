@@ -7,15 +7,9 @@ export const Slide13Earnings = () => (
     <div className="space-y-8">
       <h2 className="font-grotesk text-3xl md:text-5xl">Сколько может зарабатывать партнёр</h2>
 
-      <div className="grid md:grid-cols-2 gap-4 max-w-3xl">
-        <Card className="bg-card/40 border border-border/30 p-5 rounded-lg">
-          <p className="text-sm text-foreground/40 mb-2">Друзья, амбассадоры</p>
-          <p className="text-2xl font-bold text-primary">20–30%</p>
-          <p className="text-sm text-foreground/50">от нашей комиссии</p>
-        </Card>
+      <div className="grid md:grid-cols-1 gap-4 max-w-3xl">
         <Card className="bg-primary/5 border border-primary/20 p-5 rounded-lg">
-          <p className="text-sm text-primary mb-2">Консультанты, брокеры, агенты</p>
-          <p className="text-2xl font-bold text-primary">40–50%</p>
+          <p className="text-2xl font-bold text-primary">от 20 до 50%</p>
           <p className="text-sm text-foreground/50">от нашей комиссии</p>
         </Card>
       </div>
@@ -40,8 +34,8 @@ export const Slide13Earnings = () => (
               Земля в США
             </div>
             <p className="text-sm text-foreground/70">Инвестиция $100,000</p>
-            <p className="text-lg font-bold text-primary">5% от суммы</p>
-            <p className="text-xs text-foreground/40">или 10% от прибыли после перепродажи</p>
+            <p className="text-lg font-bold text-primary">2,5% от суммы</p>
+            
           </Card>
         </div>
       </div>
