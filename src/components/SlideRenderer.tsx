@@ -18,7 +18,7 @@ import {
   Slide16Georgia,
   Slide17PartnerGets,
   Slide18Steps,
-  Slide20FAQ,
+  Slide19Templates,
   Slide21CTA,
 } from "@/components/slides";
 
@@ -46,7 +46,7 @@ const slideComponents = [
   Slide16Georgia,
   Slide17PartnerGets,
   Slide18Steps,
-  Slide20FAQ,
+  Slide19Templates,
   Slide21CTA,
 ];
 
