@@ -18,5 +18,4 @@ export { Slide16Georgia } from "./Slide16Georgia";
 export { Slide17PartnerGets } from "./Slide17PartnerGets";
 export { Slide18Steps } from "./Slide18Steps";
 export { Slide19Templates } from "./Slide19Templates";
-export { Slide20FAQ } from "./Slide20FAQ";
 export { Slide21CTA } from "./Slide21CTA";
