@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Deal Shield™ design system. All colors MUST be HSL. */
+
+@layer base {
+  :root {
+    /* Deal Shield Color Palette - Dark Teal Background */
+    --background: 184 86% 8%;        /* Deep Teal #032528 - PRIMARY BG */
+    --foreground: 0 0% 97%;          /* Off-White #F7F7F7 - PRIMARY TEXT */
+
+    --card: 184 86% 10%;             /* Slightly lighter teal */
+    --card-foreground: 0 0% 97%;     /* Off-White */
+
+    --popover: 184 86% 10%;
+    --popover-foreground: 0 0% 97%;
+
+    --primary: 30 23% 62%;           /* Warm Taupe #B39E8A - CTA COLOR */
+    --primary-foreground: 184 86% 8%; /* Deep Teal text on buttons */
+
+    --secondary: 184 86% 12%;        /* Darker teal */
+    --secondary-foreground: 0 0% 97%; /* Off-White */
+
+    --muted: 184 86% 12%;            /* Darker teal for muted */
+    --muted-foreground: 0 0% 80%;    /* Light grey */
+
+    --accent: 30 23% 62%;            /* Warm Taupe #B39E8A */
+    --accent-foreground: 184 86% 8%; /* Deep Teal */
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 184 86% 15%;           /* Subtle teal for borders */
+    --input: 184 86% 15%;
+    --ring: 30 23% 62%;              /* Warm Taupe for focus */
+
+    --radius: 0.75rem;
+
+    /* Deal Shield Gradients */
+    --gradient-line: linear-gradient(90deg, transparent 0%, rgba(247,247,247,0.2) 50%, transparent 100%);
+    --gradient-glow: linear-gradient(135deg, rgba(179,158,138,0.2) 0%, rgba(3,37,40,0.5) 100%);
+    
+    /* Glass-morphism Effects */
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    
+    /* Shadows */
+    --shadow-glow: 0 0 40px rgba(179, 158, 138, 0.3);
+    --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.3);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Deal Shield Typography Scale */
+    --fs-hero: 72px;
+    --fs-h2: 32px;
+    --fs-h3: 24px;
+    --fs-h4: 20px;
+    --fs-lead: 20px;
+    --fs-body: 18px;
+    --fs-small: 14px;
+    --lh-tight: 1.15;
+    --lh-body: 1.7;
+    
+    /* Spacing Tokens */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-6: 24px;
+    --space-8: 32px;
+    --space-12: 48px;
+    --space-16: 64px;
+    --space-24: 96px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    scroll-behavior: smooth;
+  }
+
+  .font-headline {
+    font-family: 'Abril Fatface', serif;
+  }
+
+  .font-body {
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  }
+
+  .font-grotesk {
+    font-family: 'Schibsted Grotesk', sans-serif;
+  }
+
+  /* Apply Schibsted Grotesk to all headings except h1 */
+  h2, h3, h4, h5, h6 {
+    font-family: 'Schibsted Grotesk', sans-serif;
+  }
+
+  /* Apply Outfit to body and all text elements */
+  body, p, span, div, a, button, input, textarea, select {
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  }
+}
