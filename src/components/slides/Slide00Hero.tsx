@@ -22,7 +22,7 @@ export const Slide00Hero = () => (
         Зарабатывайте на инвестиционных сделках вместе с международной командой, не погружаясь самостоятельно в подбор проектов, юридические детали и закрытие клиентов
       </p>
 
-      <a href="mailto:iulia@propertyinvestlabs.com">
+      <a href="https://t.me/manoliiulia" target="_blank" rel="noopener noreferrer">
         <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-base px-8 py-4 rounded-[7px] shadow-[0_0_30px_rgba(179,158,138,0.2)] mt-4">
           Стать партнёром <ArrowRight className="w-5 h-5 ml-2" />
         </Button>

@@ -1,5 +1,5 @@
 import { SlideLayout } from "@/components/SlideLayout";
-import { Hotel, DollarSign, TrendingUp, ShieldCheck, Globe } from "lucide-react";
+import { DollarSign } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 export const Slide16Georgia = () => (
@@ -17,15 +17,9 @@ export const Slide16Georgia = () => (
         Валютный доход, бренд, понятный физический актив. Гостиничная недвижимость с профессиональным управлением, брендированной моделью и гарантированным доходом.
       </p>
 
-      <div className="flex flex-wrap gap-2">
-        {["Wyndham Hotels & Resorts", "Aimbridge Hospitality", "RCI", "European Village"].map((name, i) => (
-          <span key={i} className="px-3 py-1.5 bg-card/40 border border-border/30 rounded-full text-sm text-foreground/60">{name}</span>
-        ))}
-      </div>
-
       <div className="grid md:grid-cols-2 gap-4 max-w-3xl">
         <Card className="bg-card/40 border border-border/30 p-5 rounded-lg space-y-3">
-          <h3 className="font-grotesk text-lg">Aqua</h3>
+          <h3 className="font-grotesk text-lg">Проект 1</h3>
           <div className="space-y-1 text-sm">
             <div className="flex justify-between"><span className="text-foreground/50">Площадь</span><span>31,2 м²</span></div>
             <div className="flex justify-between"><span className="text-foreground/50">Стоимость</span><span>€274,928</span></div>
@@ -35,7 +29,7 @@ export const Slide16Georgia = () => (
         </Card>
 
         <Card className="bg-card/40 border border-border/30 p-5 rounded-lg space-y-3">
-          <h3 className="font-grotesk text-lg">Family Club</h3>
+          <h3 className="font-grotesk text-lg">Проект 2</h3>
           <div className="space-y-1 text-sm">
             <div className="flex justify-between"><span className="text-foreground/50">Площадь</span><span>37,3 м²</span></div>
             <div className="flex justify-between"><span className="text-foreground/50">Стоимость</span><span>€244,242</span></div>
